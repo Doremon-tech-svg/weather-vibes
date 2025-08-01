@@ -2,11 +2,11 @@
 
 A sleek, animated weather app built using HTML, CSS, and JavaScript — powered by the Tomorrow.io and OpenCage APIs. Get real-time weather, local time, and enjoy smooth dark/light mode transitions.
 
-![screenshot](https://user-images.githubusercontent.com/your-github-id/your-screenshot.png) <!-- optional preview image -->
+<!-- ![screenshot](https://user-images.githubusercontent.com/your-github-id/your-screenshot.png) <!-- optional preview image -->
 
 ## 🚀 Live Demo
 
-👉 [Visit Live Site](https://doremon-tech-svg.github.io/weather-vibes/)
+👉 [Visit Live Site](https://weather-vibes-1.onrender.com/)
 
 ---
 
