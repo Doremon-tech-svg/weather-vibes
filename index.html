@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Weather Vibes</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="weather-app">
+    
     <h1>Weather Vibes 🌤️</h1>
+
+    <!-- Dark / Light toggle -->
     <label class="switch">
       <input type="checkbox" id="modeToggle" />
       <span class="slider round"></span>
     </label>
-    <input type="text" id="cityInput" autocomplete="off" placeholder="Enter city name">
+
+    <!-- City input -->
+    <input
+      type="text"
+      id="cityInput"
+      autocomplete="off"
+      placeholder="Enter city name"
+    />
+
+    <!-- Main button -->
     <button onclick="getWeather()">Get Weather</button>
+
+    <!-- Optional: use my location (we’ll activate later) -->
+    <button id="geoBtn">Use My Location</button>
+
+    <!-- Loading text (hidden by default) -->
+    <p id="loading" style="display: none;">Loading…</p>
+
+    <!-- Weather output -->
     <div id="weatherResult"></div>
   </div>
+
+  <!-- JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
